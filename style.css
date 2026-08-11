@@ -156,3 +156,36 @@ footer {
     text-align: center;
     padding: 15px;
 }
+
+
+/* Responsive Web Design - Mobile Devices */
+@media (max-width: 768px) {
+
+    /* Navigation */
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 8px 0;
+    }
+
+    /* Main Container */
+    main {
+        width: 95%;
+        padding: 10px;
+    }
+
+    /* Form Container */
+    .form-container {
+        width: 100%;
+    }
+
+    /* Responsive Table */
+    .data-table {
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+}
